@@ -1,5 +1,0 @@
-第一次接触到github
-这是yangya分支上的代码
-这是master上的代码,这是yangya分支上的代码
-version1
-version2
