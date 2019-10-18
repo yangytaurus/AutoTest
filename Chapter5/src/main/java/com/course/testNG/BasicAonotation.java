@@ -27,4 +27,12 @@ public class BasicAonotation {
     public void AfterClass(){
         System.out.println("只是在类之后运行的方法");
     }
+    @BeforeSuite
+    public void beforSuite(){
+        System.out.println("beforSuite测试套件");
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("AfterSuite测试套件");
+    }
 }
