@@ -3,6 +3,7 @@ package com.course.testNG;
 import org.testng.annotations.*;
 
 public class BasicAonotation {
+
     @Test
     public void testCase(){
         System.out.println("测试方法");
@@ -34,5 +35,13 @@ public class BasicAonotation {
     @AfterSuite
     public void afterSuite(){
         System.out.println("AfterSuite测试套件");
+    }
+    @BeforeTest
+    public void testBeforeTest(){
+        System.out.println("测试方法前BeforeTest");
+    }
+    @AfterTest
+    public void testAfterTest(){
+        System.out.println("测试方法后AfterTest");
     }
 }

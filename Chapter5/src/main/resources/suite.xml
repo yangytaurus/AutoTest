@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite name="test">
+<suite name="suite" verbose="10">
     <test name="login">
         <classes>
             <class name="com.course.testNG.Suite.SuiteConfig" />

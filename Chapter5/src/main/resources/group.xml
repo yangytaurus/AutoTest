@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test" verbose="10" parallel="">
+    <test name="GroupTest">
+        <groups>
+            <incloud name="group2"/>
+            <incloud name="group1"/>
+        </groups>
+        <classes>
+            <class name="com.course.testNG.TestNGexceptions.GroupTest"/>
+            <class name="com.course.testNG.TestNGexceptions.TestCase"/>
+
+        </classes>
+    </test>
+</suite>

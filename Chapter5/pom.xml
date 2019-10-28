@@ -14,8 +14,13 @@
             <version>7.0.0</version>
             <scope>compile</scope>
         </dependency>
-
-    </dependencies>
+        <dependency>
+            <groupId>com.github.dreamhead</groupId>
+            <artifactId>moco-core</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+</dependencies>
 
 
 </project>
