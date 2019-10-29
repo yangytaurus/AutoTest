@@ -8,6 +8,13 @@ public class runException {
         int i = 1 / 0;
         System.out.println("After division the value of i is :" + i);
     }
+    //异常测试
+    @Test(expectedExceptions = RuntimeException.class)
+    public void expectException() {
+
+        System.out.println("After division the value of i is :" );
+        throw   new RuntimeException();
+    }
     //忽略测试   enabled =false
     @Test(enabled = false)
     public void TestNgLearn1() {
